@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb://localhost/UdemyMernProject"
+  "mongoURI": "mongodb+srv://MERNuser1:MERNuser1@162311@cluster0-buoyi.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken"
 }
