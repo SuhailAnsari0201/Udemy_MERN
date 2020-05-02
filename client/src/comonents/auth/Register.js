@@ -1,8 +1,8 @@
 import React, { Fragment, useState } from "react";
 import { connect } from "react-redux";
 import { Link, Redirect } from "react-router-dom";
-import { setAlert } from "../../_action/alert";
-import { register } from "../../_action/auth";
+import { setAlert } from "../../_actions/alert";
+import { register } from "../../_actions/auth";
 import PropTypes from "prop-types";
 
 const Register = ({ setAlert, register, isAuthenticated }) => {
